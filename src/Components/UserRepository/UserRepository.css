@@ -1,0 +1,19 @@
+.user-repository .page-breadcrumb{
+    margin-bottom: 20px;
+}
+.user-repository .ant-card-meta-description{
+    height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.user-repository .card{
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+@media (max-width:520px) {
+    .user-repository .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,45 @@
+.users .page-breadcrumb{
+    margin-bottom: 20px;
+}
+.users .ant-row{
+    width: 100%
+}
+.users .key-contain{
+    padding: 15px;
+    background: #ccc
+}
+.users .github-user-image{
+    width: auto;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+.users .github-user-data{
+    left: 200px;
+    position: absolute;
+    font-size: 20px;
+    bottom: 25%;
+    font-weight: 700;
+}
+.users .user-data-image{
+    display: inline-block;
+    height: 120px;
+    border-radius: 50%;
+}
+.users .user-data-name{
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: top;
+}
+.users .card{
+    width: 95%;
+    margin-bottom: 20px;
+}
+.ant-card-meta{
+    min-height: 75px;
+}
+@media (max-width:520px) {
+    .users .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
